@@ -4,4 +4,4 @@ type: experiment
 name: flag a
 labels: llll1
 flag: DemoApp.flagA
-value: false
+value: true
