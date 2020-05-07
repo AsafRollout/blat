@@ -2,6 +2,7 @@
 # URL: https://qax.rollout.io/ex/5eb1d0d21b2fca0d9b64742d
 type: experiment
 name: colors variant
+labels: lbl1
 flag: DemoApp.colorsVariant
 availableValues:
   - red
