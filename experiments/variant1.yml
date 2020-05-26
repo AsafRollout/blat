@@ -1,0 +1,9 @@
+# This file was edited by rollout.io
+# URL: https://localhost.rollout.io:9000/ex/5ea24ef93956be7c514ff07d
+type: experiment
+name: variant 1
+flag: variant1
+availableValues:
+  - bbb
+  - aaa
+value: aaa
