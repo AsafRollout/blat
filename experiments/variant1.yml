@@ -6,4 +6,4 @@ flag: variant1
 availableValues:
   - aaa
   - bbb
-value: aaa
+value: bbb
