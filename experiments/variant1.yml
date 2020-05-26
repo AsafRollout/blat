@@ -12,3 +12,4 @@ conditions:
       name:
         - group1
         - group2
+    value: aaa
