@@ -4,12 +4,12 @@ type: experiment
 name: variant 1
 flag: variant1
 availableValues:
-  - aaa
   - bbb
-value: bbb
+  - aaa
 conditions:
   - group:
       name:
         - group1
         - group3
-    value: aaa
+    value: bbb
+value: aaa
