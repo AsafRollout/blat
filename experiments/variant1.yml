@@ -10,4 +10,5 @@ availableValues:
   - aaa
   - bbb
   - zzzz
+  - ''
 value: qa
