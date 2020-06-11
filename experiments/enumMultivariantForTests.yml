@@ -1,0 +1,9 @@
+# This file was edited by rollout.io
+# URL: https://localhost.rollout.io:9000/ex/5ee21b37d123f19e7cb3e2c6
+type: experiment
+name: enum multivariant for tests
+flag: enumMultivariantForTests
+availableValues:
+  - C
+  - B
+value: []
