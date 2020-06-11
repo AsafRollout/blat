@@ -4,6 +4,7 @@ type: experiment
 name: enum multivariant for tests
 flag: enumMultivariantForTests
 availableValues:
-  - C
   - B
-value: []
+  - C
+  - A
+value: B
