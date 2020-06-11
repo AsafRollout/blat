@@ -4,8 +4,8 @@ type: experiment
 name: variant 1
 flag: variant1
 availableValues:
-  - aaa
   - ''
+  - aaa
   - bbb
   - zzzz
-value: aaa
+value: ''
