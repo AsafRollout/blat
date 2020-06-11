@@ -4,11 +4,10 @@ type: experiment
 name: variant 1
 flag: variant1
 availableValues:
-  - ga
-  - ''
+  - qa
   - '0'
   - '[]'
   - aaa
   - bbb
   - zzzz
-value: ga
+value: qa
