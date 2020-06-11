@@ -8,4 +8,5 @@ availableValues:
   - aaa
   - bbb
   - zzzz
+  - '0'
 value: ''
