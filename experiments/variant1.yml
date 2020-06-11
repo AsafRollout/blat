@@ -4,6 +4,7 @@ type: experiment
 name: variant 1
 flag: variant1
 availableValues:
+  - ''
   - asdf
   - '0'
   - '[]'
@@ -11,5 +12,4 @@ availableValues:
   - bbb
   - qa
   - zzzz
-  - ''
-value: asdf
+value: ''
