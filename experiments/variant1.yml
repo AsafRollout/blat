@@ -11,4 +11,5 @@ availableValues:
   - bbb
   - qa
   - zzzz
+  - ''
 value: asdf
