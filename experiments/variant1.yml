@@ -6,8 +6,9 @@ flag: variant1
 availableValues:
   - ga
   - '0'
+  - '[]'
   - aaa
   - bbb
   - zzzz
-  - '[]'
+  - ''
 value: ga
