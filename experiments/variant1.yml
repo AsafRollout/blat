@@ -1,5 +1,4 @@
-# This file was edited by rollout.io
-# URL: https://localhost.rollout.io:9000/ex/5ede23f10e2ad3384f0edf7f
+# This file was edited by Cloudbees Feature Flags
 type: experiment
 name: variant 1
 flag: variant1
@@ -12,4 +11,4 @@ availableValues:
   - bbb
   - qa
   - zzzz
-value: ''
+value: []
