@@ -2,5 +2,6 @@
 type: experiment
 flag: str1
 availableValues:
+  - s1
   - s2
-value: s2
+value: s1
