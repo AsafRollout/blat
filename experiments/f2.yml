@@ -2,4 +2,6 @@
 type: experiment
 name: f 2
 flag: f2
+conditions:
+  - value: true
 value: false
