@@ -3,6 +3,6 @@ type: experiment
 name: some name
 flag: f.newVar2
 availableValues:
-  - val
   - val2
-value: val
+  - val
+value: val2
