@@ -1,7 +1,6 @@
 # This file was edited by Cloudbees Feature Flags
 type: experiment
 name: some name
-labels: archived
 flag: f.newVar1
 availableValues:
   - val
