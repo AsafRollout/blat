@@ -2,5 +2,6 @@
 type: experiment
 flag: DemoApp.numberSwitch
 availableValues:
+  - 32
   - 123
-value: 123
+value: 32
