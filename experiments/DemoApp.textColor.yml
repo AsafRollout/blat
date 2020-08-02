@@ -3,4 +3,6 @@ type: experiment
 enabled: false
 flag: DemoApp.textColor
 availableValues:
+  - '333'
   - red
+value: '333'
