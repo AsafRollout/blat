@@ -1,0 +1,8 @@
+# This file was edited by Cloudbees Feature Flags
+type: experiment
+enabled: false
+flag: DemoApp.numberVar
+availableValues:
+  - 345
+  - 234
+  - 123
