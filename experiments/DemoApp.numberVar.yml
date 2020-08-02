@@ -2,7 +2,8 @@
 type: experiment
 flag: DemoApp.numberVar
 availableValues:
+  - 565
   - 345
   - 234
   - 123
-value: 345
+value: 565
