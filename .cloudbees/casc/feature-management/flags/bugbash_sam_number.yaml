@@ -1,0 +1,15 @@
+---
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
+kind: flag
+
+flag: bugbash_sam_number
+flagType: number
+description: ""
+labels:
+
+availableValues:
+  - "13"
+  - "15"
+  - "11"
+
+isPermanent: false

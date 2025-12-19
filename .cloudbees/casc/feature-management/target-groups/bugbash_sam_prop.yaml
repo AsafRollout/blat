@@ -1,0 +1,18 @@
+---
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
+kind: target-group
+
+name: bugbash_sam_prop
+
+description: 
+
+conditions:
+  allOf:
+    - property:
+        name: bugbash_sam_string
+        operator: is-true
+    - property:
+        name: bugbash_sam_datetime
+        operator: after
+        operands:
+            - "2025-07-25T04:00:00.000Z"

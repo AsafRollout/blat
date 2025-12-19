@@ -1,0 +1,22 @@
+---
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
+kind: flag-configuration
+
+flag: mwm-flag-1
+
+enabled: true
+
+stickinessProperty: rox.distinct_id
+
+defaultValue:
+  - percentage: 50
+    option: true
+  - percentage: 50
+    option: false
+
+conditions:
+  - allOf:
+      - property:
+          name: bugbash_sam_string
+          operator: is-true
+    flagValue: false

@@ -1,0 +1,16 @@
+---
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
+kind: target-group
+
+name: bugbash_sam_tg
+
+description: 
+
+conditions:
+  allOf:
+    - property:
+        name: bugbash_sam_semver
+        operator: is-undefined
+    - anyOf:
+        - group:
+            id: 1dda97b5-114c-4e72-8a11-50b43a8a4c32

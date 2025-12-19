@@ -1,0 +1,25 @@
+---
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
+kind: flag-configuration
+
+flag: bugbash_sam_string
+
+enabled: true
+
+stickinessProperty: rox.distinct_id
+
+defaultValue: "0"
+
+conditions:
+  - allOf:
+      - property:
+          name: bugbash_sam_datetime
+          operator: after
+          operands:
+            - "2025-07-18T04:00:00.000Z"
+    flagValue: ' MirrorPg'
+  - allOf:
+      - property:
+          name: bugbash_sam_string
+          operator: is-undefined
+    flagValue: ' MirrorPg'

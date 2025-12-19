@@ -1,0 +1,27 @@
+---
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
+kind: flag-configuration
+
+flag: bugbash_sam_bool
+
+enabled: false
+
+stickinessProperty: rox.distinct_id
+
+defaultValue:
+  - percentage: 50
+    option: true
+  - percentage: 50
+    option: false
+
+conditions:
+  - allOf:
+      - anyOf:
+          - group:
+              name: bugbash_sam_tg
+    flagValue: false
+  - allOf:
+      - property:
+          name: bugbash_sam_semver
+          operator: is-false
+    flagValue: true
