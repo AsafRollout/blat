@@ -2,7 +2,7 @@
 apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: flag
 
-flag: mwm-flag-1
+flag: test-flag
 flagType: boolean
 description: ""
 labels:

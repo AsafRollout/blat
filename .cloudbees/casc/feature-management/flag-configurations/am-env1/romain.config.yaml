@@ -2,7 +2,7 @@
 apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: flag-configuration
 
-flag: mwm-flag-1
+flag: romain
 
 enabled: false
 

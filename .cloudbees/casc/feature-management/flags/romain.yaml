@@ -2,7 +2,7 @@
 apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: flag
 
-flag: bugbash_sam_bool
+flag: romain
 flagType: boolean
 description: ""
 labels:

@@ -2,6 +2,6 @@
 apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: flag-properties
 
-name: bugbash_sam_string
+name: cp-romain
 type: Boolean
 description: ""

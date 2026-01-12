@@ -2,7 +2,7 @@
 apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: flag-configuration
 
-flag: bugbash_sam_bool
+flag: fm-test-flag
 
 enabled: false
 
@@ -10,9 +10,4 @@ stickinessProperty: rox.distinct_id
 
 defaultValue: true
 
-conditions:
-  - allOf:
-      - anyOf:
-          - group:
-              name: bugbash_sam_tg
-    flagValue: false
+conditions: []
