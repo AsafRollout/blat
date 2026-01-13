@@ -4,12 +4,10 @@ kind: target-group
 
 name: TG1
 
-description: 
+description: tg
 
 conditions:
   allOf:
     - property:
-        name: stringProp
-        operator: in-array
-        operands:
-            - test
+        name: cp-1
+        operator: is-true

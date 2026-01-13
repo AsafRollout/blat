@@ -2,12 +2,12 @@
 apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: flag-configuration
 
-flag: GregBoolFlag
+flag: romain
 
 enabled: false
 
 stickinessProperty: rox.distinct_id
 
-defaultValue: true
+defaultValue: false
 
 conditions: []

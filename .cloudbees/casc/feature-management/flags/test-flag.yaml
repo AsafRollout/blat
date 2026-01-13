@@ -4,7 +4,7 @@ kind: flag
 
 flag: test-flag
 flagType: boolean
-description: test
+description: ""
 labels:
 
 availableValues:

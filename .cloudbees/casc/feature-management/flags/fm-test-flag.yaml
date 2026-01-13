@@ -2,13 +2,16 @@
 apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: flag
 
-flag: AnkurIntFlag
-flagType: number
+flag: fm-test-flag
+flagType: boolean
 description: ""
 labels:
-  - "10"
-  - "20"
+  - One
+  - Two
+  - Three
 
 availableValues:
+  - "true"
+  - "false"
 
 isPermanent: false
