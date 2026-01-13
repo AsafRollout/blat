@@ -2,13 +2,13 @@
 apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: flag
 
-flag: test-flag
-flagType: boolean
-description: test
+flag: User-Flag
+flagType: string
+description: ""
 labels:
 
 availableValues:
-  - "true"
-  - "false"
+  - Admin
+  - User
 
 isPermanent: false

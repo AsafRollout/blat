@@ -2,9 +2,9 @@
 apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: flag
 
-flag: test-flag
+flag: Flag-For-Request-Approval
 flagType: boolean
-description: test
+description: Request approval
 labels:
 
 availableValues:

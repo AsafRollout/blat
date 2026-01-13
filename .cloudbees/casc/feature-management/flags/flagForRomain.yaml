@@ -2,9 +2,9 @@
 apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: flag
 
-flag: test-flag
+flag: flagForRomain
 flagType: boolean
-description: test
+description: ""
 labels:
 
 availableValues:

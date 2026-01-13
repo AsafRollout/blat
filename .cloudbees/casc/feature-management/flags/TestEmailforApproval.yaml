@@ -2,13 +2,11 @@
 apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: flag
 
-flag: test-flag
-flagType: boolean
-description: test
+flag: TestEmailforApproval
+flagType: string
+description: Creating a flag to test email for approval
 labels:
 
 availableValues:
-  - "true"
-  - "false"
 
 isPermanent: false

@@ -2,13 +2,12 @@
 apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: flag
 
-flag: romain
-flagType: boolean
-description: ""
+flag: Campaign1Flag
+flagType: string
+description: MB flag
 labels:
 
 availableValues:
-  - "true"
-  - "false"
+  - hello
 
 isPermanent: false
