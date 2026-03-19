@@ -2,13 +2,14 @@
 apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: flag
 
-flag: romain
-flagType: boolean
+flag: variant
+flagType: string
 description: ""
 labels:
 
 availableValues:
-  - "true"
-  - "false"
+  - var2
+  - var3
+  - vat1
 
 isPermanent: false
