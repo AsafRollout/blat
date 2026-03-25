@@ -4,10 +4,15 @@ kind: flag-configuration
 
 flag: blat6
 
-enabled: false
+enabled: true
 
 stickinessProperty: rox.distinct_id
 
 defaultValue: false
 
-conditions: []
+conditions:
+  - allOf:
+      - anyOf:
+          - group:
+              name: tg2
+    flagValue: false
