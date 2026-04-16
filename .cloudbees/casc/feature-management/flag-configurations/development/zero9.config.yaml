@@ -9,9 +9,12 @@ enabled: false
 stickinessProperty: rox.distinct_id
 
 defaultValue:
-  - percentage: 50
-    option: true
-  - percentage: 50
-    option: false
+  valueWrittenInCode: true
 
-conditions: []
+conditions:
+  - allOf:
+      - property:
+          name: rox.platform
+          operator: is-undefined
+    flagValue:
+      valueWrittenInCode: true
