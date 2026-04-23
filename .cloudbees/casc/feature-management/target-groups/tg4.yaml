@@ -1,0 +1,18 @@
+---
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
+kind: target-group
+
+name: tg4
+
+description: 
+
+conditions:
+  allOf:
+    - property:
+        name: cp1
+        operator: lt
+        operands:
+            - 3
+    - anyOf:
+        - group:
+            id: 410e27e7-bd88-4aea-ac07-68af14b0ed1f
