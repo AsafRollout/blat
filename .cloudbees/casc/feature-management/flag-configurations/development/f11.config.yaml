@@ -10,4 +10,16 @@ stickinessProperty: rox.distinct_id
 
 defaultValue: true
 
-conditions: []
+conditions:
+  - allOf:
+      - anyOf:
+          - group:
+              name: tg4
+    flagValue: false
+  - allOf:
+      - property:
+          name: cp1
+          operator: ne
+          operands:
+            - 5
+    flagValue: false
