@@ -11,4 +11,13 @@ stickinessProperty: rox.distinct_id
 defaultValue:
   valueWrittenInCode: true
 
-conditions: []
+conditions:
+  - allOf:
+      - property:
+          name: rox.language
+          operator: in-array
+          operands:
+            - "1"
+            - "2"
+            - "3"
+    flagValue: false
