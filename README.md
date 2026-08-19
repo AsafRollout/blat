@@ -1,6 +1,6 @@
-![CloudBees Rollout](https://1ko9923xosh2dsbjsxpwqp45-wpengine.netdna-ssl.com/wp-content/themes/rollout/images/rollout_white_logo1.png)
+![CloudBees Feature Management](https://1ko9923xosh2dsbjsxpwqp45-wpengine.netdna-ssl.com/wp-content/themes/rollout/images/rollout_white_logo1.png)
 
-[![Integration status](https://localhost.rollout.io:9000/badges/5ecd3648f2c5f382e541281b)](https://localhost.rollout.io:9000/app/5e6e7a997f3aa881f674b9c8/settings/info)
+[![Integration status](https://app.test.rollout.io/badges/6a86041ddef8e043da55f99d)](https://app.test.rollout.io/app/63ed6846e783e8c56b393bfc/settings/info)
 
 This repository is a YAML represnetation for Rollout configuration, it is connected (see badge for status) to Rollout service via [Rollout's github app](https://github.com/apps/rollout-io)
 Configuration as code allows the entire configuration of Rollout's state to be stored as source code. It integrates Rollout's UI with engineering existing environment. This approach brings a lot of benefits.
@@ -153,8 +153,8 @@ conditions: [Condition] # see Condition schema
 # Value when no Condition is met
 # Optional
 #  false for boolean flags
-#  [] for enum flags  (indicates default value)
-value: String|Boolean|[SplitedValue]|[ScheduledValue]
+#  null for enum flags  (indicates default value)
+value: String|Boolean|[SplitedValue]|[ScheduledValue]|null
 ```
 
 ### SplitedValue Schema
@@ -215,7 +215,7 @@ version:
     semver: Semver
 
 # Value when Condition is met
-value: String|Boolean|[SplitedValue]|[ScheduledValue]
+value: String|Boolean|[SplitedValue]|[ScheduledValue]|null
 ```
 ### Platform Schema
 The platform object indicates a specific targeting for a specific platform
@@ -235,8 +235,8 @@ conditions: [Condition] # see Condition schema
 # Value when no Condition is met
 # Optional
 #  false for boolean flags
-#  [] for enum flags  (indicates default value)
-value: String|Boolean|[SplitedValue]|[ScheduledValue] # see Value schema
+#  null for enum flags  (indicates default value)
+value: String|Boolean|[SplitedValue]|[ScheduledValue]|null # see Value schema
 ```
 
 

@@ -1,7 +1,0 @@
-# This file was edited by Cloudbees Feature Flags
-type: experiment
-flag: namespace.strFlag
-availableValues:
-  - z35
-  - default
-value: z35

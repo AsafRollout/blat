@@ -1,4 +1,0 @@
-# This file was edited by Cloudbees Feature Flags
-type: experiment
-flag: first_flag4
-value: true
