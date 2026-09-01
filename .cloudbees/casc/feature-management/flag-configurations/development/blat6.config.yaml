@@ -15,4 +15,4 @@ conditions:
       - anyOf:
           - group:
               name: tg2
-    flagValue: false
+    flagValue: true
