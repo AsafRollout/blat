@@ -1,0 +1,15 @@
+---
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
+kind: target-group
+
+name: averylong tagetgroupiscoming
+
+description: 
+
+conditions:
+  allOf:
+    - property:
+        name: test1
+        operator: ne
+        operands:
+            - 22

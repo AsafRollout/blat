@@ -1,0 +1,22 @@
+---
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
+kind: target-group
+
+name: Beta users
+
+description: 
+
+conditions:
+  allOf:
+    - property:
+        name: emailAddress
+        operator: in-array
+        operands:
+            - bob1@gmail.com
+            - bob2@gmail.com
+            - bob3@gmail.com
+            - bob4@gmail.com
+            - bob5@gmail.com
+            - bob6@gmail.com
+            - bob7@gmail.com
+            - bob8@gmail.com

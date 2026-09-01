@@ -1,0 +1,7 @@
+---
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
+kind: flag-properties
+
+name: emailAddress
+type: String
+description: "Gregs custom property for demo purposes"
