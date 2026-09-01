@@ -13,3 +13,6 @@ conditions:
         operator: lt
         operands:
             - 3
+    - anyOf:
+        - group:
+            name: tg2
