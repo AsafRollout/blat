@@ -13,6 +13,3 @@ conditions:
         operator: lt
         operands:
             - 3
-    - anyOf:
-        - group:
-            id: 410e27e7-bd88-4aea-ac07-68af14b0ed1f
