@@ -4,10 +4,12 @@ kind: flag
 
 flag: num912
 flagType: number
-description: "qwerqwer"
+description: zxcvzxcv
 labels:
 
 availableValues:
   - "3.12"
+  - "234567890"
+  - "1122222333344455"
 
 isPermanent: false
