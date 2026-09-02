@@ -7,4 +7,9 @@ name: test
 description: Test target group
 
 conditions:
-  anyOf: []
+  anyOf:
+    - property:
+        name: test1
+        operator: eq
+        operands:
+            - 1
