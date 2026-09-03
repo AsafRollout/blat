@@ -4,12 +4,7 @@ kind: target-group
 
 name: test
 
-description: TTest target group
+description: Test target group
 
 conditions:
-  anyOf:
-    - property:
-        name: test1
-        operator: eq
-        operands:
-            - 1
+  anyOf: []
