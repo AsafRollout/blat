@@ -4,7 +4,7 @@ kind: flag
 
 flag: newFlag12
 flagType: string
-description: "plop"
+description: plop
 labels:
 
 availableValues:

@@ -4,7 +4,7 @@ kind: flag
 
 flag: flag/22
 flagType: boolean
-description: "qqqq"
+description: qqqq
 labels:
 
 availableValues:
