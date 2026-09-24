@@ -4,7 +4,10 @@ kind: flag
 
 flag: flag/22
 flagType: boolean
-description: qqqq zxcvasdf
+description: |-
+    qqqq zxcvasdf
+    qwer
+    zxcv
 labels:
 
 availableValues:
