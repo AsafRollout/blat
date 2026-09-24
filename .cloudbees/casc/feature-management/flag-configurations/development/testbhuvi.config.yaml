@@ -1,0 +1,19 @@
+---
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
+kind: flag-configuration
+
+flag: testbhuvi
+
+enabled: true
+
+stickinessProperty: rox.distinct_id
+
+defaultValue: test-value
+
+conditions:
+  - allOf:
+      - flag:
+          name: test
+          value: "true"
+    flagValue:
+      valueWrittenInCode: true

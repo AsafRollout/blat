@@ -1,0 +1,13 @@
+---
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
+kind: flag
+
+flag: testbhuvi
+flagType: string
+description: ""
+labels:
+
+availableValues:
+  - test-value
+
+isPermanent: false

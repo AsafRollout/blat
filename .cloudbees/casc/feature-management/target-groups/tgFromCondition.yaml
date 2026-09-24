@@ -1,0 +1,16 @@
+---
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
+kind: target-group
+
+name: tgFromCondition
+
+description: qwer
+
+conditions:
+  allOf:
+    - anyOf:
+        - group:
+            name: Beta users
+    - property:
+        name: rox.blabla
+        operator: is-undefined
