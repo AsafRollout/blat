@@ -4,7 +4,9 @@ kind: target-group
 
 name: Beta users
 
-description: very weird\n2nd line?
+description: |-
+    very weird\n2nd line?
+    and third
 
 conditions:
   allOf:
