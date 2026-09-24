@@ -15,5 +15,5 @@ conditions:
   - allOf:
       - anyOf:
           - group:
-              name: Beta users
+              name: tgFromCondition
     flagValue: str1
