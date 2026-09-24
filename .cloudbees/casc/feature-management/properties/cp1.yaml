@@ -4,4 +4,6 @@ kind: flag-properties
 
 name: cp1
 type: Number
-description: fdsfs
+description: |-
+  fdsfs
+  another line
