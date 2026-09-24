@@ -5,7 +5,8 @@ kind: target-group
 name: Beta users
 
 description: |-
-    very weird\n2nd line?
+    very weird
+    2nd line?
     and third
 
 conditions:
