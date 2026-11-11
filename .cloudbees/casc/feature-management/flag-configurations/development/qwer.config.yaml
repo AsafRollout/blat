@@ -15,6 +15,5 @@ conditions:
       - property:
           name: emailAddress
           operator: in-array
-          operands:
-            - aaa
+          operands: []
     flagValue: false
