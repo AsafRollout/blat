@@ -10,4 +10,11 @@ stickinessProperty: rox.distinct_id
 
 defaultValue: true
 
-conditions: []
+conditions:
+  - allOf:
+      - property:
+          name: emailAddress
+          operator: in-array
+          operands:
+            - aaa
+    flagValue: false
